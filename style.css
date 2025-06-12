@@ -1,10 +1,12 @@
-body {
+body 
+{
     background-color: LightSalmon;
     text-align: center;
     font-family: Helvetica;
 }
 
-#kontener header img {
+#kontener header img 
+{
     width: 100%;
 }
 
@@ -13,39 +15,46 @@ body {
     flex-direction: row;
 }
 
-#lewa_kolumna {
+#lewa_kolumna 
+{
     display: flex;
     flex-direction: column;
     width: 30%;
 }
 
-#lewy_gora {
+#lewy_gora 
+{
     height: 400px;
 }
 
-#lewy_dol {
+#lewy_dol 
+{
     background-color: DarkSalmon;
     height: 100px;
 }
 
-#prawy {
+#prawy 
+{
     background-color: DarkSalmon;
     width: 70%;
     height: 500px;
     overflow: auto;
 }
 
-#filtr {
+#filtr 
+{
     font-style: italic;
     font-size: 200%;
     padding: 10px;
 }
 
-#filtr:hover {
+#filtr:hover 
+{
     color: GhostWhite;
 }
 
-table {
+table 
+{
     border-collapse: collapse;
     width: 70%;
     margin: 20px auto;
@@ -53,13 +62,15 @@ table {
     border: 1px dotted Maroon;
 }
 
-td {
+td 
+{
     border: 1px dotted Maroon;
     padding: 8px;
     text-align: center;
 }
 
-th {
+th 
+{
     padding: 8px;
     text-align: center;
 }
